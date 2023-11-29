@@ -1,0 +1,22 @@
+/* CSS Reset */
+
+/* Body Main */
+
+h1 {
+    color: blue;
+}
+
+/* Email Form */
+
+.email-list-form-main {
+    padding: 1em;
+    margin: .5em auto;
+}
+
+/* Footer Etc */
+
+.copyright-text {
+    margin-top: 1em;
+    padding: 1em;
+    color: slategray;
+}
