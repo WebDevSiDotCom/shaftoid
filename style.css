@@ -2,21 +2,46 @@
 
 /* Body Main */
 
+.main-container {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid green;
+}
+
 h1 {
     color: blue;
 }
 
 /* Email Form */
 
-.email-list-form-main {
+.main-flex-container {
     padding: 1em;
     margin: .5em auto;
+    border: 1px solid red;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 0 auto;
+    padding: 1em;
 }
 
 /* Footer Etc */
 
 .copyright-text {
+    display: block;
     margin-top: 1em;
     padding: 1em;
     color: slategray;
+    margin: auto;
+    text-align: center;
 }
+
+/* Media Queries */
