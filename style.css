@@ -1,7 +1,7 @@
 /* CSS Reset */
-/* * {
+* {
     margin: 0;
-} */
+}
 
 /* Body Main */
 
@@ -12,6 +12,7 @@
     text-align: center;
     background-image: url(golf-ball-bg.jpg);
     background-size: cover;
+    background-position: center;
     color: white;
     border: 1px solid green;
 }
@@ -19,10 +20,16 @@
 h1 {
     color: white;
     font-size: 1.85em;
+    padding: .5em;
 }
 
 h3 {
     font-size: 1.5em;
+    padding: .5em;
+}
+
+p {
+    padding: .5em;
 }
 
 /* Email Form */
@@ -30,7 +37,6 @@ h3 {
 .main-flex-container {
     padding: 1em;
     margin: .5em auto;
-    border: 1px solid red;
     width: 100%;
 }
 
@@ -43,7 +49,7 @@ input {
     margin: .5em auto;
     padding: 1em;
     border-radius: 5px;
-    border-radius: none;
+    border-style: none;
 }
 
 /* Footer Etc */
@@ -58,3 +64,23 @@ input {
 }
 
 /* Media Queries */
+
+@media only screen and (max-width = 600px) {
+    h1 {
+        color: brown;
+    }
+}
+
+/* Layout Borders */
+
+.main-container {
+    border: 2px solid yellow;
+}
+
+.main-flex-container {
+    border: 1px solid red;
+}
+
+.main-intro-text {
+    border: 1px solid slateblue;
+}
