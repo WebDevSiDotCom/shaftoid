@@ -19,7 +19,6 @@ body {
     padding: 1em;
     text-align: center;
     color: white;
-    border: 1px solid green;
 }
 
 /* Typography */
@@ -28,7 +27,6 @@ h1 {
     color: white;
     font-size: 1.85em;
     padding: .5em;
-    font-weight: 900;
 }
 
 h3 {
@@ -37,12 +35,21 @@ h3 {
     font-weight: 500;
 }
 
+h4 {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
 p {
     padding: .5em;
 }
 
 li {
     color: white;
+}
+
+.main-title {
+    font-weight: 900;
 }
 
 /* Nav */
@@ -77,11 +84,12 @@ a:hover {
 form {
     display: flex;
     flex-direction: column;
+    margin: 1em auto;
 }
 
 input {
     margin: .5em auto;
-    padding: 1em;
+    padding: .875em;
     border-radius: 5px;
     border-style: none;
 }
@@ -99,14 +107,18 @@ input {
 
 /* Media Queries */
 
-@media only screen and (max-width = 600px) {
-    h1 {
-        color: brown;
+@media only screen and (max-width: 725px) {
+    /* h1 {
+
+    } */
+
+    .main-container {
+        flex-direction: column;
     }
 }
 
 /* Layout Borders */
-
+/* 
 .main-container {
     border: 2px solid yellow;
 }
@@ -117,4 +129,4 @@ input {
 
 .main-intro-text {
     border: 1px solid slateblue;
-}
+} */
