@@ -56,7 +56,9 @@ li {
 
 nav {
     display: flex;
-    margin: .5em;
+    padding: .5em;
+    margin: auto;
+    text-align: center;
 }
 
 li {
