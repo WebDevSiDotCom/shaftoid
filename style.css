@@ -58,12 +58,12 @@ nav {
     display: flex;
     padding: .5em;
     margin: auto;
-    text-align: center;
+    justify-content: center;
 }
 
 li {
     list-style: none;
-    padding: .5em;
+    padding: 1em;
 }
 
 a {
