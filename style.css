@@ -81,6 +81,7 @@ a:hover {
     padding: 1em;
     margin: .5em auto;
     width: 100%;
+    background-color: rgba(76, 175, 80, 0.3);
 }
 
 form {
