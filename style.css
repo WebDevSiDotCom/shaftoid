@@ -16,7 +16,7 @@ body {
 .main-container {
     display: flex;
     margin: 0 auto;
-    padding: 1em;
+    padding: 0;
     text-align: center;
     color: white;
 }
@@ -36,7 +36,7 @@ h3 {
 }
 
 h4 {
-    margin-top: 1em;
+    margin: 1em auto;
     font-size: 1em;
 }
 
@@ -57,7 +57,7 @@ li {
 nav {
     display: flex;
     padding: .5em;
-    margin: auto;
+    margin: 1em auto;
     justify-content: center;
 }
 
@@ -78,10 +78,11 @@ a:hover {
 /* Email Form */
 
 .main-flex-container {
-    padding: 1em;
-    margin: .5em auto;
+    padding: 2em;
+    margin: 0 1em;
     width: 100%;
     background-color: rgba(76, 175, 80, 0.3);
+    border-radius: 15px;
 }
 
 form {
@@ -121,8 +122,8 @@ input {
 }
 
 /* Layout Borders */
-/* 
-.main-container {
+
+/* .main-container {
     border: 2px solid yellow;
 }
 
