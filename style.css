@@ -32,6 +32,10 @@ h1 {
     padding: .5em;
 }
 
+h2 {
+    color: white;
+}
+
 h3 {
     font-size: 1.5em;
     padding: .5em;
@@ -53,6 +57,10 @@ li {
 
 .main-title {
     font-weight: 900;
+}
+
+.contact-header, .about-header {
+    text-align: center;
 }
 
 /* Nav */
