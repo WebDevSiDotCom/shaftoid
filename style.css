@@ -124,8 +124,20 @@ input {
 
 .contact-submit-btn {
     text-align: center;
-    margin: 0 auto;
-    padding: 1em 1.5em;
+    margin: 1em auto;
+    padding: .5em 1.5em;
+    font-size: medium;
+    border-radius: .5em;
+    border-style: none;
+    color: white;
+    background-color: goldenrod;
+}
+
+.contact-email-label,
+.contact-text-box-label {
+    color: white;
+    text-align: center;
+    margin: .5em;
 }
 
 /* Media Queries */
