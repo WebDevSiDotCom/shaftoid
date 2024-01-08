@@ -140,6 +140,13 @@ input {
     margin: .5em;
 }
 
+/* About Page */
+
+p {
+    text-align: center;
+    color: white;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 725px) {
