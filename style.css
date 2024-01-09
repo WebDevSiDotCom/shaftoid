@@ -147,6 +147,12 @@ p {
     color: white;
 }
 
+.about-main {
+    margin: 0 auto;
+    width: 80%;
+    background-color: green;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 725px) {
