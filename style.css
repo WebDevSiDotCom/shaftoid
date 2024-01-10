@@ -149,8 +149,10 @@ p {
 
 .about-main {
     margin: 0 auto;
+    padding: 1em;
     width: 80%;
     background-color: green;
+    border-radius: 1em;
 }
 
 /* Media Queries */
