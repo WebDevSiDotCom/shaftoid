@@ -122,6 +122,10 @@ input {
 
 /* Contact Page */
 
+.contact-main {
+    background-color: gray;
+}
+
 .contact-submit-btn {
     text-align: center;
     margin: 1em auto;
