@@ -125,13 +125,14 @@ input {
 .contact-main {
     background-color: gray;
     padding: 1em;
-    margin: 0 auto;
+    margin: 1em auto;
     width: 80%;
+    border-radius: 1em;
 }
 
 .contact-submit-btn {
     text-align: center;
-    margin: 1em auto;
+    margin: auto;
     padding: .5em 1.5em;
     font-size: medium;
     border-radius: .5em;
@@ -145,6 +146,10 @@ input {
     color: white;
     text-align: center;
     margin: .5em;
+}
+
+.contact-submit-btn {
+    margin: 1em auto;
 }
 
 /* About Page */
