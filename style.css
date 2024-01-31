@@ -125,7 +125,7 @@ input {
 .contact-main {
     background-color: rgba(76, 175, 80, 0.3);
     padding: 1em;
-    margin: 1em auto;
+    margin: auto;
     width: 80%;
     border-radius: 1em;
 }
