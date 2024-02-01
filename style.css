@@ -130,6 +130,10 @@ input {
     border-radius: 1em;
 }
 
+.contact-wrapper {
+    margin: auto;
+}
+
 .contact-submit-btn {
     text-align: center;
     margin: auto;
